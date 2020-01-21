@@ -27,6 +27,7 @@ dependencies:
   google_maps_flutter:
   flutter_polyline_points:
   location_permissions:
+  location:
 
 dev_dependencies:
   flutter_test:
