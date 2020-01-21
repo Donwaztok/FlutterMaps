@@ -84,9 +84,9 @@ class _MyHomePageState extends State<MyHomePage> {
   setPolylines() async {
     List<PointLatLng> result = await polylinePoints?.getRouteBetweenCoordinates(
         googleAPIKey,
-        DEST_LOCATION.latitude,
         SOURCE_LOCATION.latitude,
         SOURCE_LOCATION.longitude,
+        DEST_LOCATION.latitude,
         DEST_LOCATION.longitude);
     if (result.isNotEmpty) {
       result.forEach((PointLatLng point) {
